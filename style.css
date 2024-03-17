@@ -1,0 +1,88 @@
+/* immagine di sfondo */
+body{
+    background-image: url(MaterialeEsercizioLim/background.jpg);
+    background-size: cover;
+}
+
+/* sfondo scuro */
+#container{
+    max-width: 1000px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 20px;
+    opacity: 0.80;
+    margin:  3% 20% 10% 20%;
+    height: 600px;
+    padding-top: 25px;
+}
+
+/* logo e titolo */
+#logo{
+    display: flex;
+    margin: 0px 300px;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    color: rgb(1, 187, 1);
+    justify-content: center;
+}
+
+/* navigatore */
+#nav{
+    background-color: rgb(1, 187, 1);
+    width: 70%;
+    height: 20px;
+    margin: 0% 14%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}   
+
+/* stile info Monopattini */
+.main{
+    margin: 3% 14%;
+    
+}
+
+.infoMono{
+    color: white;
+    font-size: 22px;
+}
+
+.percorso{
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', sans-serif;
+    
+}
+
+.carica{
+    color: white;
+    font-size: 16px;
+    font-family: "Turret Road", sans-serif;
+    
+}
+
+#percentuale1{
+    height: 20px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#percentuale2{
+    height: 20px;
+    width: 300px;
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
+#percentuale3{
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    border-radius: 5px;
+}
